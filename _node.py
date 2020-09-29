@@ -9,11 +9,11 @@ class Node(object):
     Node class with curr and nexr values
     """
 
-    def __init__(self, curr, next):
+    def __init__(self, curr):
         """
         Args:
             curr: current value the node is handling
             next: next value
         """
         self.curr = curr
-        self.next = next
+        self.next = None
